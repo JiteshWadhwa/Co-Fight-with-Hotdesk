@@ -1,0 +1,291 @@
+#navimg{
+  height:100px;
+  width:130px;
+  margin-top:-58px;
+  position: absolute;
+  top: 66px;
+  left: 35px;
+}
+#query{
+  position: absolute;
+  left: 90%;
+  top: 6%;
+}
+#modal-h{
+  background-color:#6610f2;
+  color:#fd7e14;
+}
+#modal-t{
+  font-size:25px;
+}
+#modal-b{
+  background-color:#4dd4ac;
+  color:#842029;
+}
+#modal-f{
+  background-color:#6610f2;
+}
+#input-mail{
+  background-color: #e9ecef;
+  font-size: 20px;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+}
+#input-id{
+  position: relative;
+  top: 11%;
+  font-size: 20px;
+  background-color: #e9ecef;
+  height: 40px;
+  width: 170px;
+  text-align: center;
+}
+#submit{
+  font-size: 23px;
+  width:130px;
+  background-color:#d63384;
+  position: relative;
+  left: 33%;
+  top: 29%;
+}
+#images{
+  border: solid #6610f2;
+  width: 26.5%;
+  position: absolute;
+  top:180px;
+  left:920px;
+}
+#in{
+  display:inline;
+  color:black;
+  font-size:80px;
+   position: absolute;
+  top: 5px;
+  left:240px;
+}
+  .navbar{
+    border-style: solid;
+    height: 120px;
+  }
+  #form{
+    width: 440px;
+    height: 480px;
+    padding: 20px;
+    background-color: #79dfc1;
+    position: relative;
+    top: 45px;
+    left: 200px;
+    display: inline-block;
+  }
+  #login{
+    color: black;
+    font-size: 60px;
+  }
+  #mail{
+    color: black;
+    font-size: 40px;
+  }
+  #id{
+    position: relative;
+    top: 11%;
+    color: black;
+    font-size: 40px;
+  }
+  #sideimg{
+    height:440px;
+    width:400px;
+}
+body{
+  overflow-y: visible;
+}
+#bottom-bar{
+  margin-top: 130px;
+  padding: 20px;
+  height: 145px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+@media(max-width: 1025px){
+  body{
+    overflow-x: hidden;
+  }
+  #in{
+    position: absolute;
+    left: 19.9%;
+    top: 11%;
+    font-size: 450%;
+  }
+  #navimg{
+    position: absolute;
+    top: 59%;
+    left: 2%;
+    width: 8.3%;
+    height: 80%;
+  }
+  .navbar{
+    overflow-x: hidden;
+    height: 125px;
+    width: 177.4%;
+  }
+  #query{
+    position: absolute;
+    top: 3.2%;
+    height: 64px;
+    width: 152px;
+    font-size: 35px;
+    left: 153.1%
+  }
+  #sideimg{
+    width: 1135px;
+    height: 482px;
+    margin-bottom: 0%;
+  }
+  #images{
+    position: absolute;
+    top: 19%;
+    left: 15.3%;
+    width: 1136px;
+    /* height: 80%; */
+  }
+
+  #form{
+    margin-top: 3%;
+    position: absolute;
+    top: 73%;
+    left: 35%;
+    right: 20%;
+    width: 800px;
+    height: 690px;
+  }
+  #login{
+    font-size: 125px;
+  }
+  #mail{
+    position: relative;
+    left: 12%;
+    font-size: 65px;
+  }
+  #input-mail{
+    background-color: #e9ecef;
+    font-size: 37px;
+    height: 67px;
+    width: 350px;
+    text-align: center;
+    position: relative;
+    left: 15%;
+    top: 0%;
+  }
+  #id{
+    position: relative;
+    left: 12%;
+    font-size: 65px;
+  }
+  #input-id{
+    background-color: #e9ecef;
+    font-size: 43px;
+    height: 67px;
+    width: 350px;
+    text-align: center;
+    position: relative;
+    left: 15%;
+    top: 11%;
+  }
+  #bottom-bar{
+    position: absolute;
+    top: 1437px;
+    height: 248px;
+    width: 180%;
+    font-size: 30px;
+  }
+}
+
+
+@media(max-width: 765px){
+  body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  #in{
+    position: absolute;
+    left: 17%;
+    font-size: 300%;
+  }
+  #navimg{
+    position: absolute;
+    top: 88%;
+    left: 2%;
+    width: 11.4%;
+    height: 78%;
+  }
+  .navbar{
+    overflow-x: hidden;
+    height: 80px;
+    width: 194.7%;
+  }
+  #query{
+    position: absolute;
+    top: 13%;
+    left: 153%;
+  }
+  #sideimg{
+    width: 615px;
+    height: 452px;
+    margin-bottom: 0%;
+  }
+  #images{
+    position: absolute;
+    top: 28%;
+    left: 12%;
+    width: 616px;
+    /* height: 80%; */
+  }
+  #form{
+    margin-top: 6%;
+    position: absolute;
+    top: 104%;
+    left: 26%;
+    right: 20%;
+    width: 520px;
+    height: 500px;
+  }
+  #login{
+    color: black;
+    font-size: 60px;
+  }
+  #mail{
+    color: black;
+    font-size: 40px;
+  }
+  #input-mail{
+    background-color: #e9ecef;
+    font-size: 20px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+  }
+  #input-id{
+    position: relative;
+    top: 11%;
+    font-size: 20px;
+    background-color: #e9ecef;
+    height: 40px;
+    width: 170px;
+    text-align: center;
+  }
+  #id{
+    position: relative;
+    top: 11%;
+    color: black;
+    font-size: 40px;
+  }
+  #bottom-bar{
+    position: absolute;
+    top: 1237px;
+    height: 218px;
+    width: 200%;
+    font-size: 22px;
+  }
+}
